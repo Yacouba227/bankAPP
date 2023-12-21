@@ -1,0 +1,74 @@
+body{
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+.icons{
+    background: #183153;
+    color: white;
+    padding: 8%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav i{
+    font-size: 28px;
+}
+.avatar{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: white;
+}
+.avatar img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.avatart-text{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+.tex span{
+    font-size: 25px;
+}
+.tex p{
+    color: #325d98;
+    font-weight: bold;
+}
+.contenu{
+    margin-top: 5%;
+}
+.meme{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 8%;
+}
+.meme .unique{
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #325d98;
+    color: wheat;
+    border-radius: 50%;
+}
+.unique i{
+    font-size: 40px;
+}
+.unique p{
+    font-size: 16px;
+    color: #183153;
+    font-weight: bold;
+}
+.link{
+    margin-left: 76%;
+}
+.link a{
+    color: #325d98;
+    font-size: 18px;
+}

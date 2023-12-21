@@ -1,0 +1,78 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: white;
+}
+.icons{
+    background: #183153;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.autre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 40px 0px 40px;
+}
+.meme{
+    font-size: 60px;
+}
+.seul{
+    font-size: 40px;
+}
+.forme{
+    padding: 8px;
+}
+.forme input{
+    width: 250px;
+    height: 40px;
+    border-radius: 12px;
+    border:  solid 2px rgb(129, 128, 128);
+    outline-color: #183153;
+    margin-bottom: 2%;
+    padding-left: 8%;
+}
+.forme input::placeholder{
+    padding: 5px;
+}
+button{
+    cursor: pointer;
+    height: 30px;
+    width: 110px;
+    border-radius: 12px;
+    border: none;
+    background: #183153;
+    color: white;
+    letter-spacing: 2px;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn span{
+    font-size: 26px;
+    font-weight: bold;
+}
+.chec{
+    padding: 0;
+    margin-bottom:5% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#checb{
+    width: 20%;
+}
+#checb input{
+    cursor: pointer;
+    width: 100%;
+}
+#tex{
+    width: 76%;
+}
+.bas{
+    text-align: center;
+    margin-top: 20%;
+}

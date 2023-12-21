@@ -1,0 +1,100 @@
+body{
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+.icons{
+    background: #183153;
+    color: white;
+    padding: 6%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav i{
+    font-size: 28px;
+}
+.nav #tex{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.iconArgent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pom i{
+    font-size: 100px;
+    color: #183153;
+}
+.flex i{
+    color: #183153;
+    font-size: 60px;
+}
+.form{
+    padding: 8px;
+}
+form input{
+    width: 240px;
+    height: 28px;
+    border-radius: 12px;
+    border:  solid 2px rgb(129, 128, 128);
+    outline-color: #183153;
+    margin-left: 8%;
+}
+textarea{
+    width: 240px;
+    height: 60px;
+    border-radius: 12px;
+    border:  solid 2px rgb(129, 128, 128);
+    outline-color: #183153;
+    margin-left: 8%;
+}
+label{
+    margin-left: 12%; 
+}
+.amount {
+    display: flex;
+    flex-direction: column;
+}
+#amountio{
+    width: 50px;
+}
+#password{
+    width: 155px;
+}
+.button{
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    border-radius: 12px;
+    border: none;
+    background: #183153;
+    color: white;
+    letter-spacing: 2px;
+}
+#button{
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    border-radius: 12px;
+    border: 1px solid #183153;
+    background: #fff;
+    color: #183153;
+    letter-spacing: 2px;
+}
+#button a{
+    color: #183153;
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 16%;
+}
+.btn span{
+    font-size: 26px;
+    font-weight: bold;
+}

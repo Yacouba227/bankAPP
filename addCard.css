@@ -1,0 +1,59 @@
+body{
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+.icons{
+    background: #183153;
+    color: white;
+    padding: 6%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav i{
+    font-size: 28px;
+}
+.nav #tex{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.avatar{
+    width: 180px;
+    height: 120px;
+    background: white;
+    margin: 5% auto;
+}
+.avatar img{
+    width: 180px;
+    height: 120px;
+}
+form input{
+    width: 240px;
+    height: 28px;
+    border-radius: 12px;
+    border:  solid 2px rgb(129, 128, 128);
+    outline-color: #183153;
+    margin-left: 8%;
+}
+label{
+    margin-left: 8%; 
+}
+button{
+    cursor: pointer;
+    height: 35px;
+    width: 150px;
+    border-radius: 12px;
+    border: none;
+    background: #183153;
+    color: white;
+    letter-spacing: 2px;
+}
+.milieu{
+    text-align: center;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}

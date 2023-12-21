@@ -1,0 +1,99 @@
+body{
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+.icons{
+    background: #183153;
+    color: white;
+    padding: 8%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav i{
+    font-size: 28px;
+}
+.avatar{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: white;
+    margin: 1% auto;
+}
+.avatar img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.counter{
+    text-align: center;
+}
+.count-money{
+    margin:5% auto 0% ;
+    background: white;
+    
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.count-money p{
+    margin-bottom: -2%;
+    color: #05BDA7 ;
+}
+.count-money .tyu{
+    font-size: 35px;
+    font-weight: bold;
+    color: #183153;
+}
+button{
+    cursor: pointer;
+    height: 30px;
+    width: 110px;
+    border-radius: 12px;
+    border: none;
+    background: #183153;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 4%;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.BASTEX{
+    text-align: center;
+    padding: 10px;
+}
+.BASTEX p{
+    color: #05BDA7;
+    font-weight: bold;
+}
+.rempli{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4%;
+    font-size: 19px;
+}
+.rempli i{
+    font-size: 28px;
+    color: #183153;
+    padding-right: 5px;
+}
+.memeicon{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+#more{
+    margin-left: 70%;
+    color: #05BDA7;
+}
+.BASTEX a{
+    text-decoration: none;
+    color: #05BDA7;
+    font-weight: bold;
+}

@@ -1,0 +1,49 @@
+body{
+    background: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.icons{
+    background: #183153;
+    color: white;
+    padding: 6%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20%;
+}
+.nav i{
+    font-size: 28px;
+}
+.nav #tex{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.avatar{
+    width: 180px;
+    height: 120px;
+    background: white;
+    margin: 5% auto;
+}
+.avatar img{
+    width: 180px;
+    height: 120px;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.bott {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.avatar1 img{
+    width: 180px;
+    height: 90px;
+}
+p{
+    font-weight: bold;
+}

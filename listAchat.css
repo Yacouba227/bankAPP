@@ -1,0 +1,87 @@
+body{
+    background: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.icons{
+    background: #183153;
+    color: white;
+    padding: 6%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16%;
+}
+.nav i{
+    font-size: 28px;
+}
+.nav #tex{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    letter-spacing: 2px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+.a{
+    background: #37bce1;
+}
+.b{
+    background: #767676;
+}
+.whit{
+    padding: 12px;
+}
+.rempli{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4%;
+    font-size: 19px;
+}
+.rempli i{
+    font-size: 28px;
+    color: #183153;
+ 
+    padding-right: 5px;
+}
+.saut{
+    margin-top: 12%;
+}
+.next{
+    background: white;
+    color: black;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 22px;
+}
+#df{
+    background: #37bce1;
+}
+.saut .button{
+    background-color: rgb(181, 184, 184);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+#un i{
+    color: rgb(9, 144, 144);
+}       
